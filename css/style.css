@@ -5,7 +5,7 @@ body{
 }
 nav{
 	padding: 5px 20px;
-	background-color: #00779a;
+	background-color: #6959CD;
 	color: #F8F8FF;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,7 +23,7 @@ li{
 }
 li:hover{
 	boder-radius: 5px;
-	background-color: #F8F8FF;
+	background-color: #6959CD;
 	color: #00779a;
 }	
 a{
@@ -39,14 +39,14 @@ a{
 	
 }
 #img-center{
-	margin: 0;
+	margin: -10;
 	width:1920px;
-	height: 500px;
+	height: 510px;
 }
 #cards{
 	padding: 20px;
 	border-radius: 5px;
-	background-color: #00779a;
+	background-color: #6959CD;
 	color: #f0f8fa;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -55,6 +55,21 @@ a{
 	height: 400px;
 	text-align: center;
 }
+.card{
+	border: solid 5px #fff;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding: 30px;
+	display: inline-block;
+}
+
+.card img{
+	max-height: 200px;
+	max-width: 150px;
+	
+}	
 #videos-youtube{
 	height: 500px;
 	margin-top: 25px;
@@ -64,6 +79,6 @@ a{
 }
 #rodape{
 	height: 400px;
-	background-color: #00779a;
+	background-color: #6959CD;
 	
 }	
