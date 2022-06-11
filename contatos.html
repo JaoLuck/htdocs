@@ -5,8 +5,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE edge">
 	<meta name="viewport" content=width="device-width, initial-scale=1.0">
 	<title>CONTATOS</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Essa área está em manutenção</h1>
+	<nav>
+		<img id="logo" src="img/imagem1.png" alt="Logo">
+		<ul id="menu">
+			<a href="index.html"><li>HOME</li></a>
+			<a href="contatos.html"><li>CONTATOS</li></a>
+			<a href="sobre.html"><li>SOBRE</li></a>
+		</ul>
+	</nav>
+	<section>
+	<div id="div-form">
+		<form method="get" action="contatos.php">
+			<label style="margin-left: -470px;" >Digite seu nome: </label> <br />
+			<input type="text" name="nome"> <br />
+			<label>Digite seu email: </label> <br />
+			<input type="email" name="email"> <br />
+			<label>Informe o motivo do contato</label> <br />
+			
+			<select name="tipo-contato">
+				<option value="Duvida">Duvida</option>
+				<option value="Reclamação">Reclamação</option>
+				<option value="Informação">Informação</option>
+			</select> <br />
+			<label>Uns numeros ai</label> <br />
+			<input type="text" name="numero1"> <br />
+			<input type="text" name="numero2"> <br />
+			<input type="submit" value="enviar"> <br />
+			
+		</form>
+	</div>
+	</section>
 </body>
 </html>	
